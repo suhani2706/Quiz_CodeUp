@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class QuestionManager {
     public static int totalQuestions;
-    private static String[][][] questionBank;
+    public static String[][][] questionBank;
     static Scanner scan = new Scanner(System.in);
 
-    private static boolean isValidInt(String input) {
+    public static boolean isValidInt(String input) {
         if (input == null || input.trim().isEmpty()) {
             return false;
         }
@@ -123,7 +123,7 @@ public class QuestionManager {
         }
     }
 
-    public static void showQuestions() {
+    private static void showQuestions() {
         for (int i = 0; i < totalQuestions; i++) {
             System.out.println("\nQuestion " + (i + 1) + ": " + questionBank[i][0][0]);
             System.out.println("Options:");
