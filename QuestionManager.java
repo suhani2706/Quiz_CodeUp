@@ -30,7 +30,7 @@ public class QuestionManager {
             }
         }
         totalQuestions = Integer.parseInt(noOfQuestion);
-        questionBank = new String[totalQuestions][5][2];  // 5 represents 1 question and 4 options
+        questionBank = new String[totalQuestions][5][2];
 
         for (int i = 0; i < totalQuestions; i++) {
             String question;
