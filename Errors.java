@@ -1,3 +1,8 @@
+/**
+ * This class contains all the hardcoded values of the other files.
+ * This file is made so that the changes in output can be made here.
+ * Created On : 9 October 2024
+ */
 package sample_code;
 
 public class Errors {
