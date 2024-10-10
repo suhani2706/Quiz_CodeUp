@@ -1,3 +1,10 @@
+/**
+ * The QuestionManager class handles the creation and management of quiz questions.
+ * It allows users to input a specified number of questions, each with four options and a correct answer.
+ *
+ * Created ON : 9 October 2024
+ */
+
 package sample_code;
 import java.util.Scanner;
 
