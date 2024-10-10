@@ -81,9 +81,9 @@ public class QuizUp {
             }
         }
         
-        // If all questions are answered before time is up, stop the timer and show results
+       
         if (!isTimeUp) {
-            isTimeUp = true; // Stop the timer
+            isTimeUp = true;
             System.out.println("\nAll questions answered. Ending quiz early.");
         }
     }
