@@ -1,6 +1,10 @@
-/* Main file where User will be given two options Attempt the Quiz or Create a Quiz 
-*	
-*/
+/**
+ *The Main class is responsible for managing the flow of the quiz application.
+ *It interacts with the user to either create a quiz or attempt one.
+ *It uses QuestionManager to handle the creation of quiz questions and QuizManager to manage the quiz process (starting the quiz, showing results).
+ *It also handles user input and provides a simple command-line interface for the quiz program.
+ * Created on : 9 October 2024
+ */
 package sample_code;
 import java.util.Scanner;
 
