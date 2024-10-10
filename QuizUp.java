@@ -1,3 +1,10 @@
+/**
+ * The QuizUp class handles the management of quiz questions, including
+ * adding new questions, displaying existing questions, and retrieving specific questions.
+ * It also validates user inputs to ensure the integrity of the questions and answers.
+ * Name - Abhilash Joshi
+ * Created On : 9 October 2024
+ */
 package sample_code;
 import java.util.Scanner;
 
